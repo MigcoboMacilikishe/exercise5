@@ -20,24 +20,21 @@ let m = 4
 console.log("---")
 // TODO: Create a loop that prints only even numbers from the numbers array
 
-let numbers2 = [1,2,3,4,5,6,7,8,9,10] 
   let i = 0
-  // while loop
-  while (i <= 6 ) {
-    console.log(numbers2[i]);
-    i++
-  } 
-// for loop
-   for (let i = 0; i <= 6; i++) {
-    console.log(numbers2[i]);
+  et i = 0
+while (i < numbers.length) {
+   if (numbers[i] % 2 === 0) {
+      console.log(numbers[i])
    }
+   i++
+}
 
 console.log("---")
 // TODO: Create a loop that calculates the sum of all numbers in the array
 let sum = 0
 
-  for (let i = 0; i < numbers2.length; i++) {
-    sum = sum + numbers2[i]
+  for (let i = 0; i < numbers.length; i++) {
+    sum = sum + numbers[i]
     
   }
 console.log(sum)
